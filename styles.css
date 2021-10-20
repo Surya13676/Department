@@ -1,0 +1,305 @@
+
+body{
+background-color:#fff;
+}
+.header
+{
+text-align: right;
+background-color:#efc600;
+font-size: 18px;
+height:30px;
+
+margin-top: 4px;
+}
+.wrap
+{ position: relative;
+  display:block;
+}
+h1
+{
+  font-size: 36px;
+    color: #b04400;
+    font-family: 'Times';
+    text-transform: uppercase;
+    margin-top: 16px;
+}
+p.h1
+{text-align: center;
+  font-family:Arial;
+      font-size: 18px;
+      margin-top: 1px;
+      margin-bottom: 0px;
+}
+p.h2
+{
+text-align: center;
+margin-bottom: 0.2rem;
+}
+.a
+{
+float: left;
+background-color:orange;
+width: 245px;
+height: 30px;
+}
+.b
+{
+overflow: hidden;
+text-decoration-color:white;
+float: left;
+background-color:orange;
+height: 30px;
+}
+/* Navbar container */
+.navbar {
+overflow: hidden;
+background-color:#b04400;
+color:black;
+text-align: center;
+}
+
+
+/* Links inside the navbar */
+.navbar a {
+float: left;
+font-size: 16px;
+color:black;
+text-align: center;
+padding: 14px 16px;
+text-decoration:none;
+
+}
+
+/* The dropdown container */
+.dropdown {
+float: left;
+overflow: hidden;
+
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+font-size: 15px;
+position:relative;
+
+outline: none;
+color:white;
+padding: 12px 14px;
+background-color: inherit;
+font-family: inherit; /* Important for vertical align on mobile phones */
+margin: 0; /* Important for vertical align on mobile phones */
+}
+
+/* Add a red background color to navbar links on hover */
+.navbar a:hover, .dropdown:hover .dropbtn:hover {
+background-color:orange;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+display:none;
+position:absolute;
+background-color: white;
+min-width: 160px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+
+}
+.drpcnt{
+   display:block;
+  position:absolute;
+  left:150px;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  margin-left: 60%inherit;
+float: none;
+color: black;
+padding: 12px 16px;
+text-decoration: none;
+display:  block;
+text-align: left;
+width: inherit;
+z-index: 5;
+}
+/* The animation code */
+@keyframes example {
+0% {background-image: url("https://www.hansrajcollege.ac.in/assets/front/images/slider/banner-img2.jpg");
+background-size:100% auto;}
+25% {background-image: url("https://www.hansrajcollege.ac.in/assets/front/images/slider/banner-img1.jpg");
+background-size:100% auto;}
+50% {background-image: url("https://www.placementhansraj.com/placementcell/images/homeslider/1.jpg");
+background-size:100% auto;}
+75% {background-image: url("https://www.hansrajcollege.ac.in/assets/front/images/slider/hindi_diwas1.jpg");
+background-size:100% auto;}
+100% {background-image: url("https://www.hansrajcollege.ac.in/assets/front/images/slider/2.jpg");
+background-size:100% auto;}
+}
+
+/* The element to apply the animation to */
+.im {
+width: 1400px;
+height: 600px;
+background-image: url("https://www.placementhansraj.com/placementcell/images/homeslider/1.jpg");
+background-size: 100% auto;
+background-position: center;
+animation-name: example;
+animation-duration: 16s;
+animation-iteration-count: infinite;
+}
+.announce
+{color:white;
+position: relative;
+top:100px;
+left: 1000px;
+bottom: 200px;
+border: 1px solid white;
+width:300px;
+height: 400px;
+
+font-weight: bolder;
+text-decoration-color: maroon;
+}
+.desk{
+position: relative;
+border: 1px solid #b04400;    padding: 15px;
+width:300px;
+font-weight: bolder;
+background-color:#ffffee;
+}
+h3
+{
+color: #b04400;
+}
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+background-color: orange;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+display: block;
+}
+div.gallery {
+margin: 5px;
+border: 1px solid azure;
+float: left;
+width: 250px;
+
+}
+
+div.gallery:hover {
+border: 1px solid #b04400;
+}
+
+div.gallery img {
+width: 100%;
+height: 150px;
+}
+
+div.desc {
+padding: 5px;
+text-align: left;
+background-color: black;
+color: white;
+}
+.footer
+{
+text-align: center;
+background-color:#b04400;
+color: white;
+font-size: 15px;
+height:150px;
+font-family:monospace;
+margin-top: 10px;
+}
+
+
+.left-side1 {
+  margin-top: 30px;
+  width: 25%;
+    border: 1px solid #e7c6ab;
+    border-radius: 5px;
+    box-shadow: 0 3px 10px 0 rgb(0 0 0 / 20%);
+    padding: 12px;
+    position: relative;
+    color: black:
+    display:inline-block;
+    float:left;
+  margin-left: 110px;
+
+}
+h2.m{text-align: center;
+  background-color: #b04400;
+  color: white;
+}
+ul.elc{
+  list-style-type: none;
+
+}
+
+
+
+.left-side1 li a {
+    color: #000;
+    font-family: 'open_sanssemibold';
+    position: relative;
+    line-height: 1.5;
+    display: inline-block;
+    padding: 10px;
+  text-decoration: none;
+  font-size: 18px;
+  display: inline-block;
+
+}
+.left-side1 ul li :hover{
+  text-decoration: underline;
+  background-color:azure;
+}
+
+.right-side1 {
+  margin-top: 30px;
+  width: 55%;
+    border: 1px solid #e7c6ab;
+    border-radius: 5px;
+    box-shadow: 0 3px 10px 0 rgb(0 0 0 / 20%);
+    padding: 12px;
+   display: inline-block;
+float:left;
+
+}
+h2.n{text-align: center;
+  background-color: #eee;
+  color: #B04400;
+  margin: 5px;
+}
+.faculty-box {
+    border-top: 1px solid #d5d4d4;
+    box-sizing: border-box;
+    overflow: hidden;
+    width: auto;
+    display: inline-block;
+}
+.faculty-image {
+    width:30%;
+    display: inline-block;
+    height: 70px;
+    text-align: center;
+    padding: 15px;
+}
+.faculty-det {
+    width:53%;
+    vertical-align: top;
+    display: inline-block;
+    padding: 20px 5px;
+}
+a.fac {
+    color:#b04400;
+    text-decoration: none;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+a.fac:hover{
+  text-decoration: underline;
+  color:blue;
+}
